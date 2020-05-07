@@ -729,7 +729,7 @@ textarea.form-control {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 10px 0;
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
