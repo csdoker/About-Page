@@ -618,7 +618,7 @@ textarea.form-control {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
-	margin-left: -15px;
+	margin-left: -25px;
 	display: block;
 	z-index: 10;
     text-align: center;
@@ -803,7 +803,7 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: #333;
 }
 
 figure.effect-bubba img {
@@ -847,18 +847,18 @@ figure.effect-bubba h2 {
 	padding-top: 10%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-20px,0);
-	transform: translate3d(0,-20px,0);
+	/* -webkit-transform: translate3d(0,-20px,0); */
+	/* transform: translate3d(0,-20px,0); */
     color: #fff;
 }
 
 figure.effect-bubba p {
 	padding: 20px 2.5em;
-	opacity: 0;
+	/* opacity: 0; */
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,20px,0);
+	/* -webkit-transform: translate3d(0,20px,0); */
+	/* transform: translate3d(0,20px,0); */
 }
 
 figure.effect-bubba:hover figcaption::before,
